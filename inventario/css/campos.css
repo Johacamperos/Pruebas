@@ -1,0 +1,94 @@
+.camp {
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	line-height: 1.5;
+	font-size: 1.2em;
+	padding: 1px 10px;
+	color: #fff;
+	display:block;
+	background: rgba(32,33,33,0.5);
+}
+
+.camp {
+	border: 2px solid #ff6900;
+	
+}
+
+.camp:focus,
+.camp:active {
+	outline: none;
+	border: 2px solid #A4A4A4;
+}
+
+.camp {
+	outline: none;
+}
+
+::-webkit-input-placeholder {
+    color: #fff;
+    font-style: calibri;
+}
+
+:-moz-placeholder {
+    color: #fff;
+    font-style: calibri;
+}
+
+::-moz-placeholder {
+    color: #fff;
+    font-style: calibri;
+}
+
+:-ms-input-placeholder {
+    color: #fff;
+    font-style: calibri;
+}
+
+
+
+.camptwo {
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	line-height: 1.5;
+	font-size: 1.2em;
+	padding: 1px 10px;
+	color: #000;
+	display:block;
+	background: transparent;
+}
+
+.camptwo {
+	border: 2px solid #ff6900;
+	
+}
+
+.camptwo:focus,
+.camptwo:active {
+	outline: none;
+	border: 2px solid #A4A4A4;
+}
+
+.camptwo {
+	outline: none;
+}
+
+
+
+@media screen and (max-width: 70em) {
+.camp {
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	line-height: 1.5;
+	font-size: 1.4em;
+	padding: 5px 10px;
+	color: #ffffff;
+	width: 60%;
+	background: rgba(32,33,33,0.5);
+}
+.camptwo {
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	line-height: 1.5;
+	font-size: 1.4em;
+	padding: 5px 10px;
+	color: #ffffff;
+	width: 60%;
+	background: transparent;
+}
+}
